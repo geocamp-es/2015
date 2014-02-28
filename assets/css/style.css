@@ -508,15 +508,16 @@ nav a:focus { color: #fff; }
 }
 
 /** Patrocinadores **/
-.patrocinadores {
+.patrocinadores-container {
 	text-align: center;
-    padding-bottom: 80px;
+    height: 500px;
+    /*padding-bottom: 80px;*/
 	/*background-color:*/ 
 }
 
 /** Organizadores **/
 	
-.organizadores {
+.organizadores-container {
 	text-align: center;
 }
 
@@ -524,13 +525,14 @@ nav a:focus { color: #fff; }
     padding-bottom: 60px;
     color: #fff;
     text-align: center;
-    height: 400px;
+    height: 520px;
 }
 
 .map {
+    /*
     height: 350px;
     margin: 0;
-    padding: 15px;
+    padding: 15px;*/
 }
 
 /** Latest tweets **/
