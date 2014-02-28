@@ -503,6 +503,7 @@ nav a:focus { color: #fff; }
 /** Patrocinadores **/
 .patrocinadores {
 	text-align: center;
+    padding-bottom: 80px;
 	/*background-color:*/ 
 }
 
@@ -511,6 +512,20 @@ nav a:focus { color: #fff; }
 .organizadores {
 	text-align: center;
 }
+
+.mapa-container {
+    padding-bottom: 60px;
+    color: #fff;
+    text-align: center;
+    height: 400px;
+}
+
+.map {
+    height: 350px;
+    margin: 0;
+    padding: 15px;
+}
+
 /** Latest tweets **/
 
 .latest-tweets {
@@ -629,8 +644,8 @@ nav a:focus { color: #fff; }
 	border-color: #e8643e;
 }
 
-.contact-address .map {
-	height: 210px;
+.contact-address {
+	height: 100px;
 	margin: 15px 0 40px 0;
 }
 

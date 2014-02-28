@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
 		else if(element_class == 'menu-testimonials') { scroll_to = $(".testimonials").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-about-us') { scroll_to = $(".whos-behind").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-patrocinadores') { scroll_to = $(".patrocinadores").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-mapa') { scroll_to = $(".mapa").offset().top - nav_height - 60; }
+		else if(element_class == 'menu-mapa') { scroll_to = $(".contact-address").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-organizacion') { scroll_to = $(".organizadores").offset().top - nav_height - 60; }
 		
 		if($(window).scrollTop() != scroll_to && element_class !== undefined) {
@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
     /*
 	    Google maps
 	*/
-    var position = new google.maps.LatLng(45.067883, 7.687231);
+    var position = new google.maps.LatLng(43.3516120, -8.4117546);
     $('.contact-address .map').gmap({'center': position, 'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
             var self = this;
             self.addMarker({'position': this.get('map').getCenter() });	
