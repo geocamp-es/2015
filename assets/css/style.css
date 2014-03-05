@@ -522,10 +522,10 @@ nav a:focus { color: #fff; }
 }
 
 .mapa-container {
-    padding-bottom: 60px;
+    margin-top: 0px;
     color: #fff;
     text-align: center;
-    height: 520px;
+    height: 700px;
 }
 
 .map {
