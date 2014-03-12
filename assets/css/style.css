@@ -528,6 +528,10 @@ nav a:focus { color: #fff; }
     height: 700px;
 }
 
+.mapa-container iframe {
+	height: 600px;
+}
+
 .map {
     /*
     height: 350px;
@@ -691,3 +695,8 @@ footer {
 	text-align: right;
 }
 
+@media (max-width: 600px) {
+	.mapa-container iframe {
+		height: 400px;
+	}
+}
