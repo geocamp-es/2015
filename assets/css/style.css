@@ -519,13 +519,20 @@ nav a:focus { color: #fff; }
 	
 .organizadores-container {
 	text-align: center;
+    height: 500px;
+}
+
+.registro-container{
+    text-align: center;
+    height: 350px;
+    color: white;
 }
 
 .mapa-container {
     margin-top: 0px;
     color: #fff;
     text-align: center;
-    height: 700px;
+    height: 600px;
 }
 
 .mapa-container iframe {

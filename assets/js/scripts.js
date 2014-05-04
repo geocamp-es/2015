@@ -23,11 +23,12 @@ jQuery(document).ready(function() {
 		if(element_class == 'menu-top') { scroll_to = $(".coming-soon").offset().top; }
 		else if(element_class == 'menu-subscribe') { scroll_to = $(".subscribe").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-project') { scroll_to = $(".about").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-testimonials') { scroll_to = $(".testimonials").offset().top - nav_height - 60; }
+		// else if(element_class == 'menu-testimonials') { scroll_to = $(".testimonials").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-about-us') { scroll_to = $(".whos-behind").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-patrocinadores') { scroll_to = $(".patrocinadores").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-mapa') { scroll_to = $(".map").offset().top - nav_height /*- 60*/; }
 		else if(element_class == 'menu-organizacion') { scroll_to = $(".organizadores").offset().top - nav_height - 60; }
+        else if(element_class == 'menu-registro') { scroll_to = $(".registro-container").offset().top - nav_height - 60; }
 		
 		if($(window).scrollTop() != scroll_to && element_class !== undefined) {
 			$('html, body').animate({scrollTop: scroll_to}, 1000);
@@ -46,6 +47,8 @@ jQuery(document).ready(function() {
     $('.about-container').backstretch("assets/img/backgrounds/4.jpg");
     
     $('.whos-behind-container').backstretch("assets/img/backgrounds/5.jpg");
+
+    $('.registro-container').backstretch("assets/img/backgrounds/3.jpg");
 
     /*
         Countdown initializer
