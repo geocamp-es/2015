@@ -511,8 +511,13 @@ nav a:focus { color: #fff; }
 .patrocinadores-container {
 	text-align: center;
     height: 500px;
+    margin-bottom: 400px;
     /*padding-bottom: 80px;*/
 	/*background-color:*/ 
+}
+
+.logos-patrocinadores {
+    margin-top: 20px;
 }
 
 /** Organizadores **/
