@@ -44,7 +44,7 @@ jQuery(document).ready(function() {
     , "assets/img/backgrounds/3.jpg"
     ], {duration: 3000, fade: 750});
     
-    $('.about-container').backstretch("assets/img/backgrounds/4.jpg");
+    $('.about-container').backstretch("assets/img/cortijo_alamillo.jpg");
     
     $('.whos-behind-container').backstretch("assets/img/backgrounds/5.jpg");
 
