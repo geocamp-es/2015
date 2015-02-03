@@ -53,7 +53,7 @@ jQuery(document).ready(function() {
     /*
         Countdown initializer
     */
-    var now = new Date("2014/06/21");
+    var now = new Date("2015/06/20");
     var countTo = now.valueOf();  
     $('.timer').countdown(countTo, function(event) {
     	$(this).find('.days').text(event.offset.totalDays);
