@@ -712,3 +712,11 @@ footer {
 		height: 400px;
 	}
 }
+
+.backstretch {
+	opacity: 0.8;
+}
+
+.about-box-1 p {
+	color: black;
+}
