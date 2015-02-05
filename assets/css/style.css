@@ -466,6 +466,7 @@ nav a:focus { color: #fff; }
 
 .whos-behind-box-1 .whos-behind-photo img {
 	width: 100%;
+	border-radius: 85%;
 }
 
 .whos-behind-box-1 .whos-behind-photo .whos-behind-social {
