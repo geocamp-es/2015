@@ -522,6 +522,11 @@ nav a:focus { color: #fff; }
    height: 150px;
 }
 
+.logos-patrocinadores img {
+   width: 100%;
+}
+
+
 /** Organizadores **/
 	
 .organizadores-container {
